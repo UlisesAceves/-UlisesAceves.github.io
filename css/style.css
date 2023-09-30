@@ -82,6 +82,30 @@ a:hover {
   color: #6CB670;
 }
 
+.carousel {
+  max-width: 100%;
+  margin: 0 auto;
+  display: flex;
+  padding: auto;
+}
+
+#imagen {
+  display: flex;
+  /*justify-content: center;
+  align-items: center;*/
+  width: 100%;
+  height: 1000px;
+  object-fit: cover;
+  object-position: center;
+  padding: auto;
+  background-size: cover;
+}
+
+.controles {
+  display: flex;
+  justify-content: center;
+}
+
 .kill-margin-bottom {
   margin-bottom: 0 !important;
 }
